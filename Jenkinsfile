@@ -1,12 +1,13 @@
 pipeline {
     agent any
-       tools {
-          maven 'Maven Apache' // El nombre debe coincidir
-      }
+
+    tools {
+        maven 'Maven Apache'
+    }
     stages {
         stage('Build y Test') {
             steps {
-                sh 'mvn clean test'
+                bat 'mvn clean test'
             }
         }
     }
