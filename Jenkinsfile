@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+       tools {
+          maven 'Maven Apache' // El nombre debe coincidir
+      }
     stages {
         stage('Build y Test') {
             steps {
