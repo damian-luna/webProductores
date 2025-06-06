@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite de Pruebas QA">
+  <test name="Pruebas Selenium">
+    <classes>
+      <class name="rivadavia.webproductores.tests.TestImpresion"/>
+    </classes>
+  </test>
+</suite>
