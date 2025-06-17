@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite de Pruebas QA]">
+  <test thread-count="5" verbose="0" name="Pruebas Selenium(failed)">
+    <classes>
+      <class name="rivadavia.webproductores.tests.TestImpresion">
+        <methods>
+          <include name="testCertificadoCooperativa"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCopiaPoliza"/>
+        </methods>
+      </class> <!-- rivadavia.webproductores.tests.TestImpresion -->
+    </classes>
+  </test> <!-- Pruebas Selenium(failed) -->
+</suite> <!-- Failed suite [Suite de Pruebas QA] -->
